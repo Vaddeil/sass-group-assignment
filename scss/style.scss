@@ -1,4 +1,26 @@
-
-@import "variables";
+@import "_variables";
 
 @import "header/_header";
+
+@import "footer/_footer";
+
+@import "details/_details";
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - 
+GENERAL
+- - - - - - - - - - - - - - - - - - - - - - - - */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+h1 {
+  font-family: $font;
+  font-size: 3rem;
+}
