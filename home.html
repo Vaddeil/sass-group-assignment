@@ -1,40 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About</title>
-  <link rel="stylesheet" href="css/style.min.css"/>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+
   <header>
-      <nav>
-        <div class="search">
-          <p>News Site Logo</p><form action="/action_page.php"><input type="text" placeholder="Search" name="search"></form>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="menubutton"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
-        </div>
-        <div class="wrapper">
-          <ul class="mainnav" id="mainnav">
-            <li><a href="#">Politics</a></li>
-            <li><a href="#">Sports</a></li>
-            <li><a href="#">Travel</a></li>
-            <li><a href="#">Media</a></li>
-            <li><a href="#">Technology</a></li>
-            <li><a href="#">Weather</a></li>
-            <li><a href="#">Regional</a></li>
-          </ul>
-        </div>
-      </nav>
+    <nav>
+      <div class="search">
+        <p>News Site Logo</p>
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search" name="search" />
+        </form>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="menubutton"
+        >
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </div>
+      <div class="wrapper">
+        <ul class="mainnav" id="mainnav">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="details.html">Details</a></li>
+        </ul>
+      </div>
+      <ul id="mainnav-mobile">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="details.html">Details</a></li>
+      </ul>
+    </nav>
   </header>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <footer></footer>
-</body>
+  <body>
+    <!-- Insert Content Here -->
+
+    <footer></footer>
+    <script src="script/app.js"></script>
+  </body>
 </html>
