@@ -1,0 +1,44 @@
+.about-content {
+    display: block;
+    padding: 5rem 5vw;
+}
+
+.about-content p {
+  width: 100%;
+}
+
+.box {
+  background-color: $tertiar-color;
+  height: 20rem;
+  width: 100%;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 18vh;
+  margin: 2rem auto;
+}
+
+.pics {
+  width: 40%;
+  background-color: $tertiar-color;
+  height: 8rem;
+  margin-right: 1rem;
+}
+
+.words {
+  overflow: scroll;
+  padding-bottom: .5rem;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
