@@ -1,67 +1,76 @@
 .about-content {
-    display: block;
-    padding: 5rem 5vw;
+  display: block;
+  padding: 5rem 5vw;
 }
 
 .about-content p {
-  width: 100%;
+width: 100%;
+margin: 0.5rem 0;
 }
 
-.box {
-  background-color: $tertiar-color;
-  height: 20rem;
-  width: 100%;
+.boxing {
+background-color: black;
+height: 20rem;
+width: 100%;
+margin: 2rem 0;
+margin-bottom: 5rem;
 }
 
-section {
-  width: 100%;
-  display: flex;
-  flex-wrap: nowrap;
-  height: 18vh;
-  margin: 2rem auto;
+
+section.mainContent {
+width: 100%;
+display: flex;
+flex-wrap: nowrap;
+height: 18vh;
+margin: 2rem auto;
+margin-bottom: 5vw;
 }
 
-.pics {
-  width: 40%;
-  background-color: $tertiar-color;
-  height: 8rem;
-  margin-right: 1rem;
+.pictures {
+width: 50%;
+background-color: black;
+height: 12vw;
+margin-right: 1rem;
 }
 
-.words {
-  overflow: scroll;
-  padding-bottom: .5rem;
-  height: 100%;
+.information {
+overflow: scroll;
+padding-bottom: .5rem;
+height: 100%;
 }
+
 
 /*-----------Responsive----------*/
 
-@media only screen and (max-width: 600px) {
-  
-  section {
-    display: flex;
-    flex-direction: column-reverse;
-    width: 100%;
-    height: auto;
-    margin-bottom: 5vw;
-    flex-wrap: nowrap;
-  }
-  
-  .words {
-    width: 100%;
-  }
-  
-  h3 {
-    font-size: 1.5rem;
-  }
-  
-  .pics {
-    width: 100%;
-    height: 50vw;
-    display: block;
-  }
-  
-  
+@media only screen and (max-width: 700px) {
+
+section.mainContent {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  height: auto;
+  margin-bottom: 8vw;
+  flex-wrap: nowrap;
+}
+
+.information {
+  width: 100%;
+}
+
+section.mainContent h3 {
+  font-size: 1.5rem;
+}
+
+section.mainContent p {
+  margin: 1rem 0;
+}
+
+.pictures {
+  width: 100%;
+  height: 50vw;
+  display: block;
+}
+
 }
 
 
