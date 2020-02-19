@@ -34,7 +34,35 @@ section {
   height: 100%;
 }
 
+/*-----------Responsive----------*/
 
+@media only screen and (max-width: 600px) {
+  
+  section {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5vw;
+    flex-wrap: nowrap;
+  }
+  
+  .words {
+    width: 100%;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+  
+  .pics {
+    width: 100%;
+    height: 50vw;
+    display: block;
+  }
+  
+  
+}
 
 
 
